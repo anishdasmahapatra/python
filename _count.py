@@ -2,7 +2,7 @@
 
 s="Bangalore is good place"
 _count=0
-____________________________________________
+
 for word in s.split():
     _count+=1
 print(_count)
@@ -585,13 +585,16 @@ def func_call(func):
 @func_call
 def add(a,b):
     return a+b
-print(add(4,5))
-print(add(4,5))
-print(add(4,5))
-print(add(4,5))
-print(add(4,5))
-print(add(4,5))
 
 
-    
+
+s="hello world"
+new="anish"
+res=""
+s=s.split()
+for word in s:
+    if word=="world":
+        print(word+' '+new)
+
+
         
