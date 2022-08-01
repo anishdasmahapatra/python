@@ -2,7 +2,7 @@
 
 s="Bangalore is good place"
 _count=0
-
+____________________________________________
 for word in s.split():
     _count+=1
 print(_count)
